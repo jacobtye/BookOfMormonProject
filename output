@@ -1,0 +1,2157 @@
+nohup: ignoring input
+Listening on port: 3003
+(node:16759) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[0mGET / [36m304 [0m5.147 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.901 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.427 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.258 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [32m200 [0m6.205 ms - 481[0m
+[0mGET /footer.html [36m304 [0m0.350 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.077 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m2.305 ms - 1464[0m
+[0mGET / [36m304 [0m0.689 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.553 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.358 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.339 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.738 ms - -[0m
+[0mGET /footer.html [36m304 [0m0.342 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.008 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.744 ms - 1464[0m
+[0mGET / [36m304 [0m0.331 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.336 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.320 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.330 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.888 ms - -[0m
+[0mGET /footer.html [32m200 [0m0.615 ms - 1354[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.734 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m1.389 ms - 1464[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+TEMP{ _id: 5deef912dc4593796e60cdff,
+  fileName: 'recovery',
+  userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  __v: 0,
+  contents: 'This is a test. ' }
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m17.907 ms - 138[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.825 ms - 275[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+TEMP{ _id: 5deef912dc4593796e60cdff,
+  fileName: 'recovery',
+  userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  __v: 0,
+  contents: 'This is a test. ' }
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.466 ms - 138[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m1.651 ms - 275[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.062 ms - -[0m
+[0mGET / [36m304 [0m0.333 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.347 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.303 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.284 ms - -[0m
+[0mGET /footer.html [36m304 [0m0.317 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m2.077 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.665 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+TEMP{ _id: 5deef912dc4593796e60cdff,
+  fileName: 'recovery',
+  userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  __v: 0,
+  contents: 'This is a test. ' }
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m2.329 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.118 ms - -[0m
+[0mGET / [32m200 [0m0.426 ms - 4858[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.458 ms - 861[0m
+[0mGET /images/icon.png [32m200 [0m0.730 ms - 1464[0m
+[0mGET /javascripts/app.js [32m200 [0m0.950 ms - 10095[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [32m200 [0m0.855 ms - 481[0m
+[0mGET /footer.html [32m200 [0m0.382 ms - 1354[0m
+[0mGET /favicon.ico [32m200 [0m0.395 ms - 1464[0m
+GETTING DOCUMENTSPaNoaXQ0mrdmUaf0Ip0qdtg8hLs2
+GETTING DOCUMENTSPaNoaXQ0mrdmUaf0Ip0qdtg8hLs2
+TEMP
+[0mGET /getTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m2.990 ms - 2[0m
+[0mGET /getDocuments/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m9.251 ms - 2[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.044 ms - -[0m
+in post
+{ userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  fileName: 'jhkj.txt',
+  contents: 'kjjlkjklkj\'ihkjikjlkllk' }
+jhkj.txt
+null
+[0mPOST /saveDocument [32m200 [0m18.049 ms - 18[0m
+GETTING DOCUMENTSPaNoaXQ0mrdmUaf0Ip0qdtg8hLs2
+[0mGET /getDocuments/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m2.225 ms - 145[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.421 ms - -[0m
+in post
+null
+[0mPOST /saveTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m2.655 ms - 18[0m
+in post
+{ _id: 5df1151cdc4593796e61aba9,
+  fileName: 'recovery',
+  userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  __v: 0,
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file,algddelete will remove a file from thedatabase and new file clears everything.' }
+[0mPOST /saveTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m2.120 ms - 18[0m
+in post
+{ _id: 5df1151cdc4593796e61aba9,
+  fileName: 'recovery',
+  userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  __v: 0,
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file,algdfdelete will remove a file from thedatabase and new file clears everything.' }
+[0mPOST /saveTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m2.283 ms - 18[0m
+in post
+{ _id: 5df1151cdc4593796e61aba9,
+  fileName: 'recovery',
+  userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  __v: 0,
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file,algdf;\'sdelete will remove a file from thedatabase and new file clears everything.' }
+[0mPOST /saveTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m2.087 ms - 18[0m
+in post
+in post
+in post
+{ _id: 5df1151cdc4593796e61aba9,
+  fileName: 'recovery',
+  userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  __v: 0,
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file,algdf;\'s;delete will remove a file from thedatabase and new file clears everything.' }
+[0mPOST /saveTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m4.707 ms - 18[0m
+{ _id: 5df1151cdc4593796e61aba9,
+  fileName: 'recovery',
+  userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  __v: 0,
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file,algdf;\'sdelete will remove a file from thedatabase and new file clears everything.' }
+[0mPOST /saveTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m4.273 ms - 18[0m
+in post
+{ _id: 5df1151cdc4593796e61aba9,
+  fileName: 'recovery',
+  userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  __v: 0,
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file,algdf;\'sdelete will remove a file from thedatabase and new file clears everything.' }
+[0mPOST /saveTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m4.874 ms - 18[0m
+{ _id: 5df1151cdc4593796e61aba9,
+  fileName: 'recovery',
+  userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  __v: 0,
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file,algdf;\'sdelete will remove a file from thedatabase and new file clears everything.' }
+[0mPOST /saveTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m3.072 ms - 18[0m
+in post
+{ _id: 5df1151cdc4593796e61aba9,
+  fileName: 'recovery',
+  userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  __v: 0,
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file,algdf;\'sdelete will remove a file from thedatabase and new file clears everything.' }
+[0mPOST /saveTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m2.258 ms - 18[0m
+in post
+{ _id: 5df1151cdc4593796e61aba9,
+  fileName: 'recovery',
+  userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  __v: 0,
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file,algdf;\'s;delete will remove a file from thedatabase and new file clears everything.' }
+[0mPOST /saveTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m2.205 ms - 18[0m
+in post
+{ _id: 5df1151cdc4593796e61aba9,
+  fileName: 'recovery',
+  userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  __v: 0,
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file,algdf;\'s;]eas[delete will remove a file from thedatabase and new file clears everything.' }
+[0mPOST /saveTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m1.974 ms - 18[0m
+in post
+{ _id: 5df1151cdc4593796e61aba9,
+  fileName: 'recovery',
+  userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  __v: 0,
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file,algdf;\'s;]eas[delete will remove a file from thedatabase and new file clears everything.' }
+[0mPOST /saveTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m2.230 ms - 18[0m
+in post
+{ _id: 5df1151cdc4593796e61aba9,
+  fileName: 'recovery',
+  userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  __v: 0,
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file,algdf;\'s;]eas[\\ddelete will remove a file from thedatabase and new file clears everything.' }
+[0mPOST /saveTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m2.172 ms - 18[0m
+in post
+{ _id: 5df1151cdc4593796e61aba9,
+  fileName: 'recovery',
+  userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  __v: 0,
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file,algdf;\'s;]eas[\\ddelete will remove a file from thedatabase and new file clears everything.' }
+[0mPOST /saveTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m2.185 ms - 18[0m
+in post
+in post
+{ _id: 5df1151cdc4593796e61aba9,
+  fileName: 'recovery',
+  userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  __v: 0,
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file,algdf;\'s;]eas[\\ddelete will remove a file from thedatabase and new file clears everything.' }
+[0mPOST /saveTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m3.309 ms - 18[0m
+{ _id: 5df1151cdc4593796e61aba9,
+  fileName: 'recovery',
+  userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  __v: 0,
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file,algdf;\'s;]eas[\\ddelete will remove a file from thedatabase and new file clears everything.' }
+[0mPOST /saveTemp/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m1.928 ms - 18[0m
+in post
+{ userName: 'PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2',
+  fileName: 'aelksdj',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file,algdf;\'s;]eas[\\ddelete will remove a file from thedatabase and new file clears everything.' }
+aelksdj
+null
+[0mPOST /saveDocument [32m200 [0m2.465 ms - 18[0m
+GETTING DOCUMENTSPaNoaXQ0mrdmUaf0Ip0qdtg8hLs2
+[0mGET /getDocuments/PaNoaXQ0mrdmUaf0Ip0qdtg8hLs2 [32m200 [0m2.625 ms - 1202[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.059 ms - -[0m
+[0mGET / [32m200 [0m0.429 ms - 4858[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.833 ms - 861[0m
+[0mGET /images/icon.png [32m200 [0m0.944 ms - 1464[0m
+[0mGET /javascripts/app.js [32m200 [0m1.159 ms - 10095[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [32m200 [0m0.967 ms - 481[0m
+[0mGET /footer.html [32m200 [0m0.360 ms - 1354[0m
+[0mGET /favicon.ico [32m200 [0m0.328 ms - 1464[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.818 ms - -[0m
+[0mGET / [32m200 [0m0.401 ms - 4858[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.502 ms - 861[0m
+[0mGET /images/icon.png [32m200 [0m0.410 ms - 1464[0m
+[0mGET /javascripts/app.js [32m200 [0m0.437 ms - 10095[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [32m200 [0m0.806 ms - 481[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.889 ms - -[0m
+[0mGET /footer.html [32m200 [0m0.445 ms - 1354[0m
+[0mGET /favicon.ico [32m200 [0m0.452 ms - 1464[0m
+[0mGET / [32m200 [0m0.413 ms - 4858[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.469 ms - 861[0m
+[0mGET /images/icon.png [32m200 [0m0.433 ms - 1464[0m
+[0mGET /javascripts/app.js [32m200 [0m0.441 ms - 10095[0m
+[0mGET /favicon.ico [32m200 [0m0.415 ms - 1464[0m
+[0mGET /footer.html [32m200 [0m0.572 ms - 1354[0m
+GETTING DOCUMENTSfzc7GYJSq3g6LT4a1A2SClLvCZt2
+TEMP
+[0mGET /getTemp/fzc7GYJSq3g6LT4a1A2SClLvCZt2 [32m200 [0m1.728 ms - 2[0m
+GETTING DOCUMENTSfzc7GYJSq3g6LT4a1A2SClLvCZt2
+[0mGET /getDocuments/fzc7GYJSq3g6LT4a1A2SClLvCZt2 [32m200 [0m1.232 ms - 2[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.810 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [32m200 [0m0.784 ms - 481[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [32m200 [0m0.553 ms - 481[0m
+in post
+null
+[0mPOST /saveTemp/fzc7GYJSq3g6LT4a1A2SClLvCZt2 [32m200 [0m1.677 ms - 18[0m
+in post
+{ _id: 5df11678dc4593796e61ac50,
+  fileName: 'recovery',
+  userName: 'fzc7GYJSq3g6LT4a1A2SClLvCZt2',
+  __v: 0,
+  contents: 'This is a tese' }
+[0mPOST /saveTemp/fzc7GYJSq3g6LT4a1A2SClLvCZt2 [32m200 [0m2.102 ms - 18[0m
+in post
+{ _id: 5df11678dc4593796e61ac50,
+  fileName: 'recovery',
+  userName: 'fzc7GYJSq3g6LT4a1A2SClLvCZt2',
+  __v: 0,
+  contents: 'This is a tes' }
+[0mPOST /saveTemp/fzc7GYJSq3g6LT4a1A2SClLvCZt2 [32m200 [0m3.451 ms - 18[0m
+in post
+{ _id: 5df11678dc4593796e61ac50,
+  fileName: 'recovery',
+  userName: 'fzc7GYJSq3g6LT4a1A2SClLvCZt2',
+  __v: 0,
+  contents: 'This is a tesT' }
+[0mPOST /saveTemp/fzc7GYJSq3g6LT4a1A2SClLvCZt2 [32m200 [0m1.392 ms - 18[0m
+in post
+{ _id: 5df11678dc4593796e61ac50,
+  fileName: 'recovery',
+  userName: 'fzc7GYJSq3g6LT4a1A2SClLvCZt2',
+  __v: 0,
+  contents: 'This is a tesT' }
+[0mPOST /saveTemp/fzc7GYJSq3g6LT4a1A2SClLvCZt2 [32m200 [0m3.375 ms - 18[0m
+in post
+{ _id: 5df11678dc4593796e61ac50,
+  fileName: 'recovery',
+  userName: 'fzc7GYJSq3g6LT4a1A2SClLvCZt2',
+  __v: 0,
+  contents: 'This is a tesT!!!!!!' }
+[0mPOST /saveTemp/fzc7GYJSq3g6LT4a1A2SClLvCZt2 [32m200 [0m1.892 ms - 18[0m
+in post
+{ userName: 'fzc7GYJSq3g6LT4a1A2SClLvCZt2',
+  fileName: 'tmp.txt',
+  contents: 'This is a tesT!!!!!!' }
+tmp.txt
+null
+[0mPOST /saveDocument [32m200 [0m2.183 ms - 18[0m
+GETTING DOCUMENTSfzc7GYJSq3g6LT4a1A2SClLvCZt2
+[0mGET /getDocuments/fzc7GYJSq3g6LT4a1A2SClLvCZt2 [32m200 [0m2.207 ms - 282[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.355 ms - -[0m
+[0mGET / [36m304 [0m0.282 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.327 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.217 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.312 ms - -[0m
+[0mGET /footer.html [36m304 [0m0.306 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.333 ms - 1464[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.296 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.355 ms - -[0m
+GETTING DOCUMENTSfzc7GYJSq3g6LT4a1A2SClLvCZt2
+[0mGET /getDocuments/fzc7GYJSq3g6LT4a1A2SClLvCZt2 [36m304 [0m2.789 ms - -[0m
+GETTING DOCUMENTSfzc7GYJSq3g6LT4a1A2SClLvCZt2
+TEMP{ _id: 5df11678dc4593796e61ac50,
+  fileName: 'recovery',
+  userName: 'fzc7GYJSq3g6LT4a1A2SClLvCZt2',
+  __v: 0,
+  contents: 'This is a tesT!!!!!!' }
+[0mGET /getTemp/fzc7GYJSq3g6LT4a1A2SClLvCZt2 [32m200 [0m2.147 ms - 142[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.926 ms - -[0m
+[0mGET /index.html [32m200 [0m0.417 ms - 4858[0m
+[0mGET /images/icon.png [36m304 [0m0.313 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.254 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.289 ms - -[0m
+[0mGET /footer.html [36m304 [0m0.324 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.998 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.908 ms - -[0m
+IN DELETE
+5df0bfefee4bf64177d16bdb
+[0mDELETE /deleteFile/5df0bfefee4bf64177d16bdb [32m200 [0m4.800 ms - 2[0m
+GETTING DOCUMENTSfzc7GYJSq3g6LT4a1A2SClLvCZt2
+[0mGET /getDocuments/fzc7GYJSq3g6LT4a1A2SClLvCZt2 [36m304 [0m2.087 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.366 ms - -[0m
+[0mGET / [36m304 [0m0.338 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.572 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.508 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.321 ms - -[0m
+[0mGET /footer.html [36m304 [0m0.290 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.472 ms - 1464[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.304 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.834 ms - -[0m
+GETTING DOCUMENTSfzc7GYJSq3g6LT4a1A2SClLvCZt2
+[0mGET /getDocuments/fzc7GYJSq3g6LT4a1A2SClLvCZt2 [36m304 [0m2.091 ms - -[0m
+GETTING DOCUMENTSfzc7GYJSq3g6LT4a1A2SClLvCZt2
+TEMP{ _id: 5df11678dc4593796e61ac50,
+  fileName: 'recovery',
+  userName: 'fzc7GYJSq3g6LT4a1A2SClLvCZt2',
+  __v: 0,
+  contents: 'This is a tesT!!!!!!' }
+[0mGET /getTemp/fzc7GYJSq3g6LT4a1A2SClLvCZt2 [36m304 [0m2.232 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.008 ms - -[0m
+GETTING DOCUMENTSEwpX9VbbbGdrXoQODZTZuJv8qy43
+[0mGET /getDocuments/EwpX9VbbbGdrXoQODZTZuJv8qy43 [32m200 [0m1.848 ms - 2[0m
+GETTING DOCUMENTSEwpX9VbbbGdrXoQODZTZuJv8qy43
+TEMP
+[0mGET /getTemp/EwpX9VbbbGdrXoQODZTZuJv8qy43 [32m200 [0m1.142 ms - 2[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.986 ms - -[0m
+in post
+{ userName: 'EwpX9VbbbGdrXoQODZTZuJv8qy43',
+  fileName: 'Ryn.txt',
+  contents: 'Eden ne\'nas, nadi tada koi.' }
+Ryn.txt
+null
+[0mPOST /saveDocument [32m200 [0m1.888 ms - 18[0m
+GETTING DOCUMENTSEwpX9VbbbGdrXoQODZTZuJv8qy43
+[0mGET /getDocuments/EwpX9VbbbGdrXoQODZTZuJv8qy43 [32m200 [0m1.868 ms - 148[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.790 ms - -[0m
+[0mGET / [32m200 [0m0.420 ms - 4858[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.829 ms - 861[0m
+[0mGET /images/icon.png [32m200 [0m0.970 ms - 1464[0m
+[0mGET /javascripts/app.js [32m200 [0m0.446 ms - 10095[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [32m200 [0m1.124 ms - 481[0m
+[0mGET /footer.html [32m200 [0m0.425 ms - 1354[0m
+[0mGET /favicon.ico [32m200 [0m0.434 ms - 1464[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.988 ms - -[0m
+GETTING DOCUMENTSwwxf0NCS5jPeRiXFKxcAlG0a1Uu2
+GETTING DOCUMENTSwwxf0NCS5jPeRiXFKxcAlG0a1Uu2
+TEMP
+[0mGET /getTemp/wwxf0NCS5jPeRiXFKxcAlG0a1Uu2 [32m200 [0m3.907 ms - 2[0m
+[0mGET /getDocuments/wwxf0NCS5jPeRiXFKxcAlG0a1Uu2 [32m200 [0m4.037 ms - 2[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.996 ms - -[0m
+in post
+{ userName: 'wwxf0NCS5jPeRiXFKxcAlG0a1Uu2',
+  fileName: 'Test.txt',
+  contents: 'This is our last day, yes!!!!!!' }
+Test.txt
+null
+[0mPOST /saveDocument [32m200 [0m1.756 ms - 18[0m
+GETTING DOCUMENTSwwxf0NCS5jPeRiXFKxcAlG0a1Uu2
+[0mGET /getDocuments/wwxf0NCS5jPeRiXFKxcAlG0a1Uu2 [32m200 [0m2.109 ms - 153[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.980 ms - -[0m
+IN DELETE
+5df11783dc4593796e61acd5
+[0mDELETE /deleteFile/5df11783dc4593796e61acd5 [32m200 [0m1.597 ms - 2[0m
+GETTING DOCUMENTSwwxf0NCS5jPeRiXFKxcAlG0a1Uu2
+[0mGET /getDocuments/wwxf0NCS5jPeRiXFKxcAlG0a1Uu2 [32m200 [0m1.778 ms - 2[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.962 ms - -[0m
+[0mGET / [32m200 [0m0.399 ms - 4858[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.441 ms - 861[0m
+[0mGET /images/icon.png [32m200 [0m0.415 ms - 1464[0m
+[0mGET /javascripts/app.js [32m200 [0m1.060 ms - 10095[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [32m200 [0m0.989 ms - 481[0m
+[0mGET /footer.html [32m200 [0m0.431 ms - 1354[0m
+[0mGET /favicon.ico [32m200 [0m0.429 ms - 1464[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.969 ms - -[0m
+GETTING DOCUMENTSwUH8PmZr5YgNDSauy3PtKNkyDg23
+GETTING DOCUMENTSwUH8PmZr5YgNDSauy3PtKNkyDg23
+TEMP
+[0mGET /getTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.733 ms - 2[0m
+[0mGET /getDocuments/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.845 ms - 2[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.981 ms - -[0m
+in post
+{ userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  fileName: 'newfile',
+  contents: '' }
+newfile
+null
+[0mPOST /saveDocument [32m200 [0m4.378 ms - 18[0m
+GETTING DOCUMENTSwUH8PmZr5YgNDSauy3PtKNkyDg23
+[0mGET /getDocuments/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.033 ms - 121[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.003 ms - -[0m
+in post
+null
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.855 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sd' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m10.324 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjf' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.131 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfklds' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.999 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfklds' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.084 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsj' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.418 ms - 18[0m
+in post
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsj' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m5.052 ms - 18[0m
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjafl' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.207 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsj' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.936 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflk' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.429 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflk' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.936 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflk' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.358 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkj' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.185 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjl' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.209 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlk' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.993 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlk' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m3.176 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlk' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.065 ms - 18[0m
+in post
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkarg' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.793 ms - 18[0m
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargklj' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.929 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargklj' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.011 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargklj' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.325 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargklj' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.420 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargklj' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.297 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'ji' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.375 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'ji' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.916 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'ji' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.896 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jid' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.545 ms - 18[0m
+in post
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidS' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m3.683 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\n' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m3.540 ms - 18[0m
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\n' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.838 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\n' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.305 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\n' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.488 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\n' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.380 ms - 18[0m
+in post
+{ userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  fileName: 'newfile',
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\n' }
+newfile
+null
+[0mPOST /saveDocument [32m200 [0m1.960 ms - 18[0m
+GETTING DOCUMENTSwUH8PmZr5YgNDSauy3PtKNkyDg23
+[0mGET /getDocuments/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.085 ms - 428[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.771 ms - -[0m
+[0mGET / [36m304 [0m0.271 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.294 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.545 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.709 ms - -[0m
+[0mGET /footer.html [36m304 [0m0.290 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.303 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.150 ms - -[0m
+GETTING DOCUMENTSwUH8PmZr5YgNDSauy3PtKNkyDg23
+[0mGET /getDocuments/wUH8PmZr5YgNDSauy3PtKNkyDg23 [36m304 [0m3.280 ms - -[0m
+GETTING DOCUMENTSwUH8PmZr5YgNDSauy3PtKNkyDg23
+TEMP{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\n' }
+[0mGET /getTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.272 ms - 155[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.351 ms - -[0m
+IN DELETE
+5df118dbdc4593796e61ad69
+[0mDELETE /deleteFile/5df118dbdc4593796e61ad69 [32m200 [0m1.410 ms - 2[0m
+GETTING DOCUMENTSwUH8PmZr5YgNDSauy3PtKNkyDg23
+[0mGET /getDocuments/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.990 ms - 308[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.822 ms - -[0m
+in post
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\n' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m3.039 ms - 18[0m
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlk' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.999 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlk' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.026 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlklk' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.093 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlklkvxj' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.325 ms - 18[0m
+in post
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlklkvxj' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m3.199 ms - 18[0m
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlklkvxjkl' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.557 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlklkvxjkl' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.049 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlklkvxjklvj' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.363 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlklkvxjklvj' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.214 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlklkvxjklvjlk' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.340 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlklkvxjklvjlk' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.135 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlklkvxjklvjlk' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.374 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlklkvxjklvjlkj' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.201 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlklkvxjklvjlkjkl' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.885 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlklkvxjklvjlkjkl' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.367 ms - 18[0m
+in post
+{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlklkvxjklvjlkjkl' }
+[0mPOST /saveTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.937 ms - 18[0m
+in post
+{ userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  fileName: 'newfile',
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlklkvxjklvjlkjkl' }
+newfile
+null
+[0mPOST /saveDocument [32m200 [0m2.086 ms - 18[0m
+GETTING DOCUMENTSwUH8PmZr5YgNDSauy3PtKNkyDg23
+[0mGET /getDocuments/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m2.110 ms - 495[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.773 ms - -[0m
+[0mGET /saveDocument [33m404 [0m2.733 ms - 1861[0m
+Error: Cannot find module 'ejs'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at new View (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/view.js:81:14)
+    at Function.render (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/response.js:1008:7)
+    at /home/ec2-user/environment/mocGoogleDoc/app.js:141:7
+    at Layer.handle_error (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:315:13)
+    at /home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:275:10)
+    at /home/ec2-user/environment/mocGoogleDoc/app.js:130:3
+    at Layer.handle [as handle_request] (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:317:13)
+in post
+{ userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  fileName: 'test.txt',
+  contents: 'This is a test. ' }
+test.txt
+null
+[0mPOST /saveDocument [32m200 [0m3.471 ms - 18[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.260 ms - 412[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.989 ms - -[0m
+in post
+{ userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  fileName: 'test.txt',
+  contents: 'This is a test. ' }
+test.txt
+null
+[0mPOST /saveDocument [32m200 [0m2.036 ms - 18[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.489 ms - 549[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.014 ms - -[0m
+[0mGET / [36m304 [0m0.345 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.323 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.279 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.226 ms - -[0m
+[0mGET /footer.html [36m304 [0m0.341 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.811 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m2.107 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+TEMP{ _id: 5deef912dc4593796e60cdff,
+  fileName: 'recovery',
+  userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  __v: 0,
+  contents: 'This is a test. ' }
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m1.391 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.985 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.471 ms - 1464[0m
+IN DELETE
+5deefbffdc4593796e60cf65
+[0mDELETE /deleteFile/5deefbffdc4593796e60cf65 [32m200 [0m1.476 ms - 2[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.311 ms - 412[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.988 ms - -[0m
+IN DELETE
+5df119cddc4593796e61ae0e
+[0mDELETE /deleteFile/5df119cddc4593796e61ae0e [32m200 [0m1.401 ms - 2[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m1.999 ms - 275[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.858 ms - -[0m
+[0mGET / [36m304 [0m0.298 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.311 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.286 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.306 ms - -[0m
+[0mGET /footer.html [36m304 [0m0.290 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.299 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.681 ms - -[0m
+GETTING DOCUMENTSwUH8PmZr5YgNDSauy3PtKNkyDg23
+[0mGET /getDocuments/wUH8PmZr5YgNDSauy3PtKNkyDg23 [36m304 [0m2.215 ms - -[0m
+GETTING DOCUMENTSwUH8PmZr5YgNDSauy3PtKNkyDg23
+TEMP{ _id: 5df118e2dc4593796e61ad6f,
+  fileName: 'recovery',
+  userName: 'wUH8PmZr5YgNDSauy3PtKNkyDg23',
+  __v: 0,
+  contents: 'sdjfkldsjaflkjlkargkljgr\'jidSVJ\njlklkvxjklvjlkjkl' }
+[0mGET /getTemp/wUH8PmZr5YgNDSauy3PtKNkyDg23 [32m200 [0m1.557 ms - 172[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.929 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.818 ms - -[0m
+[0mGET / [36m304 [0m0.274 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.436 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.329 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.323 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.977 ms - -[0m
+[0mGET /footer.html [36m304 [0m0.214 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.824 ms - -[0m
+[0mGET /contact_me.html [32m200 [0m0.456 ms - 2455[0m
+[0mGET /app.js [33m404 [0m1.129 ms - 1861[0m
+Error: Cannot find module 'ejs'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at new View (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/view.js:81:14)
+    at Function.render (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/response.js:1008:7)
+    at /home/ec2-user/environment/mocGoogleDoc/app.js:141:7
+    at Layer.handle_error (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:315:13)
+    at /home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:275:10)
+    at /home/ec2-user/environment/mocGoogleDoc/app.js:130:3
+    at Layer.handle [as handle_request] (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:317:13)
+[0mGET /app.js [33m404 [0m1.569 ms - 1861[0m
+Error: Cannot find module 'ejs'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at new View (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/view.js:81:14)
+    at Function.render (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/response.js:1008:7)
+    at /home/ec2-user/environment/mocGoogleDoc/app.js:141:7
+    at Layer.handle_error (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:315:13)
+    at /home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:275:10)
+    at /home/ec2-user/environment/mocGoogleDoc/app.js:130:3
+    at Layer.handle [as handle_request] (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:317:13)
+[0mGET /header.html [32m200 [0m0.436 ms - 1[0m
+[0mGET /footer.html [36m304 [0m0.269 ms - -[0m
+[0mGET / [36m304 [0m0.302 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.316 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.299 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m0.470 ms - 10070[0m
+[0mGET /footer.html [36m304 [0m0.325 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.804 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+TEMP{ _id: 5deef912dc4593796e60cdff,
+  fileName: 'recovery',
+  userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  __v: 0,
+  contents: 'This is a test. ' }
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m1.724 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m1.689 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.987 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.454 ms - 1464[0m
+in post
+{ userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  fileName: 'test.txt',
+  contents: 'This is a test. ' }
+test.txt
+null
+[0mPOST /saveDocument [32m200 [0m2.572 ms - 18[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.136 ms - 412[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.802 ms - -[0m
+[0mGET / [36m304 [0m0.355 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.316 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.209 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.314 ms - -[0m
+[0mGET /footer.html [36m304 [0m0.315 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.791 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m2.133 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+TEMP{ _id: 5deef912dc4593796e60cdff,
+  fileName: 'recovery',
+  userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  __v: 0,
+  contents: 'This is a test. ' }
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m1.404 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.814 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.363 ms - 1464[0m
+IN DELETE
+5df119d2dc4593796e61ae13
+[0mDELETE /deleteFile/5df119d2dc4593796e61ae13 [32m200 [0m1.334 ms - 2[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m1.930 ms - 275[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.786 ms - -[0m
+[0mGET / [36m304 [0m0.293 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.319 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.254 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m0.460 ms - 10104[0m
+[0mGET /footer.html [36m304 [0m0.318 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.917 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m2.670 ms - -[0m
+TEMP{ _id: 5deef912dc4593796e60cdff,
+  fileName: 'recovery',
+  userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  __v: 0,
+  contents: 'This is a test. ' }
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m3.079 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m6.825 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.473 ms - 1464[0m
+in post
+{ userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  fileName: 'test.txt',
+  contents: 'This is a test. ' }
+test.txt
+null
+[0mPOST /saveDocument [32m200 [0m1.818 ms - 18[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.108 ms - 412[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.768 ms - -[0m
+IN DELETE
+5df11ad5dc4593796e61ae8c
+[0mDELETE /deleteFile/5df11ad5dc4593796e61ae8c [32m200 [0m1.540 ms - 2[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.200 ms - 275[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.949 ms - -[0m
+in post
+{ userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  fileName: 'test.txt',
+  contents: 'This is a test. ' }
+test.txt
+null
+[0mPOST /saveDocument [32m200 [0m1.768 ms - 18[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.050 ms - 412[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.826 ms - -[0m
+IN DELETE
+5df11b25dc4593796e61aeb5
+[0mDELETE /deleteFile/5df11b25dc4593796e61aeb5 [32m200 [0m1.443 ms - 2[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m1.976 ms - 275[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.992 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.303 ms - -[0m
+in post
+{ userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  fileName: 'test.txt',
+  contents: 'This is a test. ' }
+test.txt
+null
+[0mPOST /saveDocument [32m200 [0m1.932 ms - 18[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.064 ms - 412[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.983 ms - -[0m
+IN DELETE
+5df11b35dc4593796e61aec0
+[0mDELETE /deleteFile/5df11b35dc4593796e61aec0 [32m200 [0m1.475 ms - 2[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.751 ms - 275[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.952 ms - -[0m
+[0mGET / [36m304 [0m0.293 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.323 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.309 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m0.357 ms - 10143[0m
+[0mGET /footer.html [36m304 [0m0.308 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m2.282 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m3.909 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+TEMP{ _id: 5deef912dc4593796e60cdff,
+  fileName: 'recovery',
+  userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  __v: 0,
+  contents: 'This is a test. ' }
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m2.287 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.866 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.453 ms - 1464[0m
+in post
+{ userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  fileName: 'test.txt',
+  contents: 'This is a test. ' }
+test.txt
+null
+[0mPOST /saveDocument [32m200 [0m1.996 ms - 18[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.233 ms - 412[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.966 ms - -[0m
+IN DELETE
+5df11b78dc4593796e61aee0
+[0mDELETE /deleteFile/5df11b78dc4593796e61aee0 [32m200 [0m1.421 ms - 2[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.080 ms - 275[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.935 ms - -[0m
+[0mGET / [36m304 [0m0.345 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.338 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.323 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m0.463 ms - 10147[0m
+[0mGET /footer.html [36m304 [0m0.312 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.803 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m1.850 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+TEMP{ _id: 5deef912dc4593796e60cdff,
+  fileName: 'recovery',
+  userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  __v: 0,
+  contents: 'This is a test. ' }
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m1.757 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.837 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.485 ms - 1464[0m
+[0mPUT /deleteFile/5df11bbbdc4593796e61af02 [33m404 [0m1.042 ms - 1861[0m
+Error: Cannot find module 'ejs'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at new View (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/view.js:81:14)
+    at Function.render (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/response.js:1008:7)
+    at /home/ec2-user/environment/mocGoogleDoc/app.js:141:7
+    at Layer.handle_error (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:315:13)
+    at /home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:275:10)
+    at /home/ec2-user/environment/mocGoogleDoc/app.js:130:3
+    at Layer.handle [as handle_request] (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:317:13)
+in post
+{ userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  fileName: 'test.txt',
+  contents: 'This is a test. ' }
+test.txt
+null
+[0mPOST /saveDocument [32m200 [0m1.722 ms - 18[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.760 ms - 412[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.807 ms - -[0m
+IN DELETE
+5df11bbbdc4593796e61af02
+[0mDELETE /deleteFile/5df11bbbdc4593796e61af02 [32m200 [0m1.444 ms - 2[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m1.961 ms - 275[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.777 ms - -[0m
+[0mPUT /deleteFile/5df11beddc4593796e61af21 [33m404 [0m0.890 ms - 1861[0m
+Error: Cannot find module 'ejs'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at new View (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/view.js:81:14)
+    at Function.render (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/response.js:1008:7)
+    at /home/ec2-user/environment/mocGoogleDoc/app.js:141:7
+    at Layer.handle_error (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:315:13)
+    at /home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:275:10)
+    at /home/ec2-user/environment/mocGoogleDoc/app.js:130:3
+    at Layer.handle [as handle_request] (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/environment/mocGoogleDoc/node_modules/express/lib/router/index.js:317:13)
+in post
+{ userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  fileName: 'test.txt',
+  contents: 'This is a test. ' }
+test.txt
+null
+[0mPOST /saveDocument [32m200 [0m1.795 ms - 18[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.129 ms - 412[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.879 ms - -[0m
+IN DELETE
+5df11beddc4593796e61af21
+[0mDELETE /deleteFile/5df11beddc4593796e61af21 [32m200 [0m1.409 ms - 2[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m6.055 ms - 275[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.795 ms - -[0m
+[0mGET / [36m304 [0m0.305 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.317 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.838 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m0.450 ms - 10150[0m
+[0mGET /footer.html [36m304 [0m0.307 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.752 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+TEMP{ _id: 5deef912dc4593796e60cdff,
+  fileName: 'recovery',
+  userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  __v: 0,
+  contents: 'This is a test. ' }
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m1.750 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m1.372 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.008 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.454 ms - 1464[0m
+IN DELETE
+5df11c0fdc4593796e61af33
+[0mDELETE /deleteFile/5df11c0fdc4593796e61af33 [32m200 [0m1.428 ms - 2[0m
+in post
+{ userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  fileName: '',
+  contents: 'This is a test. ' }
+
+null
+[0mPOST /saveDocument [32m200 [0m1.886 ms - 18[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.079 ms - 267[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m2.081 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.541 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m3.298 ms - -[0m
+[0mGET / [36m304 [0m0.830 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.328 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.238 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m0.484 ms - 10143[0m
+[0mGET /footer.html [36m304 [0m0.318 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.001 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m2.583 ms - -[0m
+TEMP{ _id: 5deef912dc4593796e60cdff,
+  fileName: 'recovery',
+  userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  __v: 0,
+  contents: 'This is a test. ' }
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m2.970 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.015 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.482 ms - 1464[0m
+[0mGET / [36m304 [0m0.282 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.291 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.334 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.302 ms - -[0m
+[0mGET /footer.html [36m304 [0m0.325 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.567 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m4.132 ms - -[0m
+TEMP{ _id: 5deef912dc4593796e60cdff,
+  fileName: 'recovery',
+  userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  __v: 0,
+  contents: 'This is a test. ' }
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m4.522 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.948 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.458 ms - 1464[0m
+in post
+{ userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  fileName: 'test.txt',
+  contents: 'This is a test. ' }
+test.txt
+null
+[0mPOST /saveDocument [32m200 [0m1.949 ms - 18[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.333 ms - 404[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.969 ms - -[0m
+IN DELETE
+5df11ca0dc4593796e61af7d
+[0mDELETE /deleteFile/5df11ca0dc4593796e61af7d [32m200 [0m1.438 ms - 2[0m
+in post
+{ userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  fileName: 'test.txt',
+  contents: 'This is a test. ' }
+test.txt
+null
+[0mPOST /saveDocument [32m200 [0m1.959 ms - 18[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.050 ms - 404[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m2.238 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.556 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.819 ms - -[0m
+IN DELETE
+5df11ca4dc4593796e61af82
+[0mDELETE /deleteFile/5df11ca4dc4593796e61af82 [32m200 [0m1.320 ms - 2[0m
+in post
+{ userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  fileName: 'test.txt',
+  contents: 'This is a test. ' }
+test.txt
+null
+[0mPOST /saveDocument [32m200 [0m1.911 ms - 18[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m2.850 ms - 404[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m1.070 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m2.693 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.982 ms - -[0m
+[0mGET / [36m304 [0m0.311 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.324 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.238 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.290 ms - -[0m
+[0mGET /footer.html [36m304 [0m0.306 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.983 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m2.060 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+TEMP{ _id: 5deef912dc4593796e60cdff,
+  fileName: 'recovery',
+  userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  __v: 0,
+  contents: 'This is a test. ' }
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m1.366 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.968 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.424 ms - 1464[0m
+[0mGET / [36m304 [0m0.428 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.315 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.312 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m0.447 ms - 10152[0m
+[0mGET /footer.html [36m304 [0m0.335 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.765 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m1.943 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+TEMP{ _id: 5deef912dc4593796e60cdff,
+  fileName: 'recovery',
+  userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  __v: 0,
+  contents: 'This is a test. ' }
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m2.087 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.962 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.459 ms - 1464[0m
+IN DELETE
+5df11c1ddc4593796e61af41
+[0mDELETE /deleteFile/5df11c1ddc4593796e61af41 [32m200 [0m1.208 ms - 2[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [32m200 [0m1.869 ms - 275[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.980 ms - -[0m
+[0mGET / [36m304 [0m0.317 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.329 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.303 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m0.461 ms - 10143[0m
+[0mGET /footer.html [36m304 [0m0.312 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.775 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m5.501 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+TEMP{ _id: 5deef912dc4593796e60cdff,
+  fileName: 'recovery',
+  userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  __v: 0,
+  contents: 'This is a test. ' }
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m1.352 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.970 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.424 ms - 1464[0m
+[0mGET / [32m200 [0m0.484 ms - 4858[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.433 ms - 861[0m
+[0mGET /images/icon.png [32m200 [0m0.282 ms - 1464[0m
+[0mGET /javascripts/app.js [32m200 [0m0.459 ms - 10143[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [32m200 [0m0.925 ms - 481[0m
+[0mGET /footer.html [32m200 [0m0.427 ms - 1354[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.883 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.454 ms - 1464[0m
+[0mGET / [36m304 [0m0.304 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.315 ms - -[0m
+[0mGET /images/icon.png [36m304 [0m0.324 ms - -[0m
+[0mGET /javascripts/app.js [32m200 [0m0.435 ms - 10297[0m
+[0mGET /footer.html [36m304 [0m0.301 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.772 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getDocuments/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m2.664 ms - -[0m
+TEMP{ _id: 5deef912dc4593796e60cdff,
+  fileName: 'recovery',
+  userName: 'jvhINKS3S9S6kqdVQ8iCRg84FJI2',
+  __v: 0,
+  contents: 'This is a test. ' }
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m2.991 ms - -[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.931 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.437 ms - 1464[0m
+[0mGET / [32m200 [0m0.443 ms - 4858[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.728 ms - 861[0m
+[0mGET /images/icon.png [32m200 [0m0.719 ms - 1464[0m
+[0mGET /javascripts/app.js [32m200 [0m0.453 ms - 10297[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [32m200 [0m0.832 ms - 481[0m
+[0mGET /footer.html [32m200 [0m0.377 ms - 1354[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.735 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.423 ms - 1464[0m
+GETTING DOCUMENTS3QVgN8bpwgREKVSCQyYgJyNGedx2
+GETTING DOCUMENTS3QVgN8bpwgREKVSCQyYgJyNGedx2
+[0mGET /getDocuments/3QVgN8bpwgREKVSCQyYgJyNGedx2 [32m200 [0m2.467 ms - 2[0m
+TEMP
+[0mGET /getTemp/3QVgN8bpwgREKVSCQyYgJyNGedx2 [32m200 [0m2.391 ms - 2[0m
+in post
+{}
+{ _id: 5df0bfefee4bf64177d16bdb,
+  userName: 'all',
+  fileName: 'README.txt',
+  contents:
+   'This is a Simple document editor that saves text to a mongoosedatabase attached to a specific user. Authentication is done viafirebase authentication.\nTo use, simply type in the textbox and use the buttons above as youwould in wordPad. Save overwirtes the current file, Save As saves toa new name, load opens a file, delete will remove a file from thedatabase and new file clears everything.' }
+[0mGET /getREADME [36m304 [0m0.751 ms - -[0m
+[0mGET / [32m200 [0m0.455 ms - 4858[0m
+[0mGET / [32m200 [0m0.423 ms - 4858[0m
+[0mGET / [32m200 [0m0.439 ms - 4858[0m
+[0mGET /favicon.ico [32m200 [0m0.418 ms - 1464[0m
+[0mGET / [32m200 [0m0.420 ms - 4858[0m
+[0mGET /favicon.ico [32m200 [0m0.423 ms - 1464[0m
+[0mGET / [32m200 [0m0.390 ms - 4858[0m
+[0mGET /favicon.ico [32m200 [0m0.392 ms - 1464[0m
+[0mGET / [32m200 [0m0.419 ms - 4858[0m
+[0mGET / [32m200 [0m0.443 ms - 4858[0m
+[0mGET /favicon.ico [32m200 [0m0.420 ms - 1464[0m
+[0mGET / [32m200 [0m0.387 ms - 4858[0m
+[0mGET /favicon.ico [32m200 [0m0.411 ms - 1464[0m
+[0mGET / [32m200 [0m0.387 ms - 4858[0m
+[0mGET /favicon.ico [32m200 [0m0.409 ms - 1464[0m
+[0mGET / [32m200 [0m0.431 ms - 4858[0m
+[0mGET /favicon.ico [32m200 [0m0.422 ms - 1464[0m
+[0mGET / [32m200 [0m0.444 ms - 4858[0m
+[0mGET / [32m200 [0m0.440 ms - 4858[0m
+[0mGET /favicon.ico [32m200 [0m0.386 ms - 1464[0m
+[0mGET / [32m200 [0m0.431 ms - 4858[0m
+[0mGET / [32m200 [0m0.409 ms - 4858[0m
+[0mGET / [32m200 [0m0.414 ms - 4858[0m
+[0mGET / [32m200 [0m0.382 ms - 4858[0m
+[0mGET / [32m200 [0m0.417 ms - 4858[0m
+[0mGET / [32m200 [0m0.388 ms - 4858[0m
+[0mGET / [32m200 [0m0.390 ms - 4858[0m
+[0mGET / [32m200 [0m0.991 ms - 4858[0m
+[0mGET /favicon.ico [32m200 [0m0.420 ms - 1464[0m
+[0mGET / [32m200 [0m0.406 ms - 4858[0m
+[0mGET / [32m200 [0m0.587 ms - 4858[0m
+[0mGET /favicon.ico [32m200 [0m0.385 ms - 1464[0m
+[0mGET / [32m200 [0m0.403 ms - 4858[0m
+[0mGET /favicon.ico [32m200 [0m0.391 ms - 1464[0m
+[0mGET / [32m200 [0m0.378 ms - 4858[0m
+[0mGET /favicon.ico [32m200 [0m1.778 ms - 1464[0m
+[0mGET / [32m200 [0m0.427 ms - 4858[0m
+[0mGET / [32m200 [0m0.402 ms - 4858[0m
+[0mGET /favicon.ico [32m200 [0m1.611 ms - 1464[0m
+[0mGET / [32m200 [0m0.538 ms - 4858[0m
