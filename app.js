@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const router = express.Router();
 const bodyParser = require('body-parser');
 mongoose.connect('mongodb://localhost:27017/scriptures', {
-  useNewUrlParser: true
+  useNewUrlParser: true, useUnifiedTopology: true
 });
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
