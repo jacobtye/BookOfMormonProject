@@ -18,11 +18,18 @@ firebase.initializeApp(config);
         app = new Vue({
           el: '#app',
           data: {
-            docs: {},
+            scriptures: [],
             words : "",
-            file : "",
+            books : ["1 Nephi", "2 Nephi", "Jacob", "Enos", 
+                    "Jarom", "Omni", "Words of Mormon",
+                    "Mosiah", "Alma", "Helaman", "3 Nephi",
+                    "4 Nephi", "Mormon", "Ether", "Moroni"],
+            book: "1 Nephi",
+            chapter: "",
+            verse: "",
+            reference : "1-Nephi-1-1",
             saved : true,
-            currentFile : "",
+            publicAllowed: true,
             signInStatus: false,
             buttonText : "LOADING...",
             currentUser: null,
@@ -40,6 +47,30 @@ firebase.initializeApp(config);
           watch: {
           },
           methods: {
+            async generateReference(){
+                let bookr = this.book.replace(" ", "-");
+                this.reference = bookr;
+                if (this.chapter != "" && this.chapter != null){
+                    this.reference = this.reference + "-" + this.chapter;
+                    if (this.verse != "" && this.verse != null){
+                        this.reference = this.reference + "-" + this.verse;
+                    }
+                }
+            },
+            async searchVerse(){
+                await this.generateReference();
+                await this.findVerse();
+            },
+            async findVerse(){
+                try{
+                    document.getElementById(this.reference).scrollIntoView();
+                    window.scrollTo(0, 0);
+                }
+                catch(err){
+                }
+
+              await this.loadAnnotation();
+            },
             async saveAs(){
                 if (this.file == "" || this.file == null){
                     this.file = prompt("Please enter file name", "");
@@ -64,32 +95,36 @@ firebase.initializeApp(config);
                     alert("Please Sign In!\n ");
                     return;
                 }
-                if(this.currentFile == "README.txt"){
+                if(this.reference == "README"){
                     alert("Cannot Change or Delete README");
                     return;
                 }
-                console.log(this.currentFile);
-                if (this.currentFile == "" || this.currentFile == null || this.currentFile == "recovery"){
-                    this.saveAs();
+                if (!this.books.includes(this.book)){
+                    alert("Invalid Reference");
                     return;
                 }
-                console.log("in save");
-
-                let docsMap = this.docs.map(item => {
-                    return item.fileName;
+                // console.log("in save");
+                await this.generateReference();
+                let verse = document.getElementById(this.reference).innerText;
+                let scripturesMap = this.scriptures.map(item => {
+                    return item.reference;
                 });
-                console.log(docsMap);
-                let index = docsMap.indexOf(this.currentFile);
+                // console.log(scripturesMap);
+                let index = scripturesMap.indexOf(this.reference);
                 if(index != -1){
-                    await this.deleteFileNoComfirm();
+                    await this.deleteNoComfirm();
                 }
                 try {
-                const response = await axios.post("/saveDocument", {
+                    // console.log(this.publicAllowed);
+                const response = await axios.post("/saveScripture", {
                   userName: this.currentUser.uid,
-                  fileName: this.currentFile,
+                  displayName: this.currentUser.displayName,
+                  reference: this.reference,
                   contents: this.words,
+                  verse: verse,
+                  publicAllowed: this.publicAllowed,
                 });
-                alert("Saved to " + this.currentFile);
+                alert("Saved to " + this.reference);
                 this.file = "";
                 this.saved = true;
                 this.updateFiles();
@@ -100,134 +135,117 @@ firebase.initializeApp(config);
                 
             },
             async getREADME(){
-                console.log("Getting Readme");
+                // console.log("Getting Readme");
                 const response = await axios.get("/getREADME");
-                this.docs = [];
-                this.docs.push(response.data);
+                this.scriptures = [];
+                this.scriptures.push(response.data);
                 
             },
             async updateFiles(){
+                this.scriptures = [];
                 if (!this.signInStatus){
-                    await this.getREADME();
+                    // await this.getREADME();
                     return;
                 }
                 try{
-                    console.log("GETTING FILES 1");
-                    const response = await axios.get("/getDocuments/"+this.currentUser.uid);
-                    console.log(response.data);
+                    // console.log("GETTING FILES 1");
+                    const response = await axios.get("/getScriptures/"+this.currentUser.uid);
+                    // console.log(response.data);
                     await this.getREADME();
-                    this.docs = this.docs.concat(response.data);
-                    console.log(this.docs);
+                    this.scriptures = this.scriptures.concat(response.data);
+                    // console.log(this.scriptures);
                 }catch(error){
                     console.log(error);
                     alert("Error Getting Files");
                 }
             },
-            async loadFile(){
-                if (this.file == "" || this.file == null){
-                    this.file = prompt("Please enter file name", "");
-                }
-                if (this.file == "" || this.file == null){
+            async loadAnnotation(){
+                try{
+                if (this.reference == "" || this.reference == null){
                     return;
                 }
-                console.log("DOCS");
-                console.log(this.docs);
-                let docsMap = this.docs.map(item => {
-                    return item.fileName;
+                let scripturesMap = this.scriptures.map(item => {
+                    return item.reference;
                 });
-                let i = docsMap.indexOf(this.file);
-                this.words = this.docs[i].contents;
-                this.currentFile = this.file;
-                this.file = "";
-                this.saved = true;
+                let i = scripturesMap.indexOf(this.reference);
+                this.words = this.scriptures[i].contents;
+                }
+                catch(err){
+                    this.words = "";
+                }
             },
-            async deleteFile(){
-                if(this.file == "README.txt"){
+            async updateReference(newReference){
+                // console.log(newReference);
+                this.reference = newReference;
+                await this.loadAnnotation();
+            },
+            async deleteAnnotation(){
+                // console.log("in delete");
+                if(this.reference == "README"){
                     alert("Cannot Change or Delete README");
                     return;
                 }
-                if (this.file == "" || this.file == null){
-                    this.file = prompt("Please enter file name", "");
-                }
-                if (this.file == "" || this.file == null){
+                if (this.reference == "" || this.reference == null){
                     return;
                 }
-                console.log("IN DELETE");
-                if(!confirm("Are you sure you want to delete " + this.file)){
+                if(!confirm("Are you sure you want to delete annotation for " + this.reference)){
                     return;
                 }
-                console.log("DOCUMENTS");
-                console.log(this.docs);
-                let docsMap = this.docs.map(item => {
-                    return item.fileName;
+                let scripturesMap = this.scriptures.map(item => {
+                    return item.reference;
                 });
-                let index = docsMap.indexOf(this.file);
+                let index = scripturesMap.indexOf(this.reference);
+                // console.log(index);
                 if (index == -1){
-                    alert("No file " + this.file);
+                    alert("No annotation for  " + this.reference);
                     return;
                 }
-                console.log(docsMap);
-                console.log( docsMap[index]);
                 try {
-                    const response = await axios.delete("/deleteFile/"+ this.docs[index]._id);
-                alert("Deleted " + this.file);
-                this.file = "";
+                    await axios.delete("/deleteScripture/"+ this.scriptures[index]._id);
+                alert("Deleted " + this.reference);
+                this.words = "";
+                this.reference = "";
                 this.updateFiles();
               } catch (error) {
                 console.log(error);
                 alert("Error Deleting " + this.file);
               }
             },
-            async deleteFileNoComfirm(){
-                console.log("IN DELETE");
-                if(this.file == "README.txt"){
+            async deleteNoComfirm(){
+                // console.log("IN DELETE");
+                if(this.reference == "README.txt"){
                     alert("Cannot Change or Delete README");
                     return;
                 }
-                let docsMap = this.docs.map(item => {
-                    return item.fileName;
+                let scripturesMap = this.scriptures.map(item => {
+                    return item.reference;
                 });
-                let index = docsMap.indexOf(this.currentFile);
-                console.log(docsMap);
-                console.log( docsMap[index]);
-                try {
-                const response = await axios.delete("/deleteFile/" + this.docs[index]._id);
-                this.file = "";
-                this.updateFiles();
+                let index = scripturesMap.indexOf(this.reference);
+            try {
+                await axios.delete("/deleteScripture/"+ this.scriptures[index]._id);
               } catch (error) {
                 console.log(error);
                 alert("Error Deleting " + this.file);
               }
-            },
-            async newFile(){
-                if (!this.saved){
-                    if (confirm("Would you like to save first?")){
-                        this.save();
-                    }
-                }
-                this.words = "";
-                this.currentFile = "";
-                this.file = "";
-                this.saved = true;
             },
             async saveTemp(){
                 // console.log(this.docs);
-                console.log("in temp " + this.words);
+                // console.log("in temp " + this.words);
                 const response = await axios.post("/saveTemp/"+this.currentUser.uid, {
                   contents: this.words,
                 });
             },
             async getTemp(){
-                console.log("in temp " + this.words);
+                // console.log("in temp " + this.words);
                 const response = await axios.get("/getTemp/" + this.currentUser.uid);
-                this.words = response.data[0].contents;
+                // this.words = response.data[0].contents;
             },
             async toggleSignIn() {
-              console.log("Trying sign in");
+            //   console.log("Trying sign in");
               this.currentUser = firebase.auth().currentUser;
-              console.log(this.currentUser);
+            //   console.log(this.currentUser);
               if (this.currentUser == null) {
-                  console.log("LOGGING IN");
+                //   console.log("LOGGING IN");
                 // var provider = new firebase.auth.GithubAuthProvider();
                 var provider = new firebase.auth.GoogleAuthProvider();
                 var user;
@@ -246,7 +264,7 @@ firebase.initializeApp(config);
                 }
                 // [END signin]
               } else {
-                  console.log("SIGNNG OUT")
+                //   console.log("SIGNNG OUT")
                 // [START signout]
                 firebase.auth().signOut();
                 this.currentUser = null;
@@ -258,9 +276,10 @@ firebase.initializeApp(config);
               }
             },
             initApp() {
-            console.log(this.currentUser);
+            // console.log(this.currentUser);
             this.currentUser = firebase.auth().currentUser;
             console.log(this.currentUser);
+            // console.log(this.currentUser);
                 if (this.currentUser != null){
                   this.signInStatus = true;
                   this.buttonText = 'Sign out';

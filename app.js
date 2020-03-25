@@ -6,19 +6,22 @@ var logger = require('morgan');
 const mongoose = require('mongoose');
 const router = express.Router();
 const bodyParser = require('body-parser');
-mongoose.connect('mongodb://localhost:27017/documents', {
+mongoose.connect('mongodb://localhost:27017/scriptures', {
   useNewUrlParser: true
 });
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 mongoose.set('useFindAndModify', false);
 var app = express();
-const docSchema = new mongoose.Schema({
+const scriptureSchema = new mongoose.Schema({
   userName: String,
-  fileName: String,
+  displayName: String,
+  reference: String,
   contents: String,
+  publicAllowed: Boolean,
+  verse: String,
 });
-const Document = mongoose.model('Document', docSchema);
+const Scripture = mongoose.model('Scripture', scriptureSchema);
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -36,42 +39,45 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 app.use(express.static('public'));
-const README = new Document({
+const README = new Scripture({
   userName: "all",
-  fileName: "README.txt",
-  contents:"This is a Simple document editor that saves text to a mongoose"+
-            "database attached to a specific user. Authentication is done via"+
-            "firebase authentication.\n"+
-            "To use, simply type in the textbox and use the buttons above as you"+
-            "would in wordPad. Save overwirtes the current file, Save As saves to"+
-            "a new name, load opens a file, delete will remove a file from the"+
-            "database and new file clears everything."
-})
-app.post('/saveDocument', async (req, res) => {
+  displayName: "all",
+  reference: "README",
+  contents:"This is a site I created for my Book of Mormon class where" +
+            " people can write about their favorite scriptures in the " + 
+            "Book of Mormon to share with others. Simply type in a reference, " +
+            "type in your reasons why it is special, and choose your preferences and hit save." +
+            " it will only be publically available if you give permission.",
+  verse: "",
+  publicAllowed: true,
+});
+app.post('/saveScripture', async (req, res) => {
     console.log("in post");
     console.log(req.body);
-  console.log(req.body.fileName);
-  Document.findOneAndUpdate({userName: req.params.id, fileName: req.body.fileName},{ "$set":
-  {contents: req.body.contents, fileName: req.body.fileName, userName: req.body.userName} }, {upsert: true}, 
-  function(err,doc){
+  console.log(req.body.reference);
+  Scripture.findOneAndUpdate({userName: req.params.id, reference: req.body.reference},{ "$set":
+  {contents: req.body.contents, displayName: req.body.displayName, reference: req.body.reference, userName: req.body.userName,
+    publicAllowed: req.body.publicAllowed, verse: req.body.verse
+  } }, {upsert: true}, 
+  function(err,post){
         if (err) {
           return res.send(500, {error: err});
           
         };
-    console.log(doc);
+    console.log(post);
     return res.send('Succesfully saved.');
   });
 });
 
 app.post('/saveTemp/:id', (req, res) => {
     console.log("in post");
-  Document.findOneAndUpdate({userName: req.params.id, fileName: "recovery"},{contents: req.body.contents}, {upsert: true}, 
-  function(err,doc){
+  Scripture.findOneAndUpdate({userName: req.params.id, reference: req.body.reference},{contents: req.body.contents}, {upsert: true}, 
+  function(err,post){
         if (err) {
           return res.send(500, {error: err});
           
-        };
-    console.log(doc);
+        }
+    console.log(post);
     return res.send('Succesfully saved.');
   });
 });
@@ -84,18 +90,27 @@ app.get('/getREADME', (req, res) => {
 app.get('/getTemp/:id', async (req,res) =>{
   try {
     console.log("GETTING DOCUMENTS" + req.params.id);
-    let temp = await Document.find({userName: req.params.id, fileName: "recovery"});
+    let temp = await Scripture.find({userName: req.params.id, reference: "recovery"});
     console.log("TEMP"+ temp);
     return res.send(temp);
   }catch (error) {
     return res.sendStatus(500);
   }
 });
-app.get('/getDocuments/:id', async (req, res) => {
+app.get('/getScriptures/:id', async (req, res) => {
   try {
-    console.log("GETTING DOCUMENTS" + req.params.id);
-    let documents = await Document.find({userName: req.params.id});
-    return res.send(documents);
+    console.log("GETTING Scripture" + req.params.id);
+    let scriptures = await Scripture.find({userName: req.params.id});
+    return res.send(scriptures);
+  }catch (error) {
+    return res.sendStatus(500);
+  }
+});
+app.get('/getAllPublic', async (req, res) => {
+  try {
+    console.log("GETTING Scripture" + req.params.id);
+    let scriptures = await Scripture.find({publicAllowed: true});
+    return res.send(scriptures);
   }catch (error) {
     return res.sendStatus(500);
   }
@@ -110,11 +125,11 @@ app.get('/getChanged', (req, res) => {
     this.changed = false;
   }
 });
-app.delete('/deleteFile/:id', async (req,res) => {
+app.delete('/deleteScripture/:id', async (req,res) => {
   console.log("IN DELETE");
   console.log(req.params.id);
   try{
-    await Document.deleteOne({
+    await Scripture.deleteOne({
       _id: req.params.id
     });
     return res.sendStatus(200);

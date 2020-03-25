@@ -32,12 +32,15 @@
                 <p v-else>Welcome {{currentUser.email}}</p>    
             </span>
             </div>
-            <h1>Welcome to the Book of Mormon Favorite Scripture Center</h1>
-            <br>
-            <p>This is a site I have been workign on where we all can say what we like about specific 
-            verses in the Book of Mormon and share it with everyone. To use simply log in with your Google account, 
-            and go to the personal tab and start annotating verses. Click if you want it to be public visible, and then 
-            click the community page to see what everyone is saying.</p>
+            <div v-for="list in allAnnotations" class="w3-card">
+                <button type="button" class="btn btn-info" data-toggle="collapse" v-bind:data-target="list[0][0]">{{list[1][0].reference}}</button>
+                <br>
+                {{list[1][0].verse}}
+                <div v-bind:id="list[0][1]" class="collapse">
+                  <br>
+                  <p v-for="annotation in list[1]">{{annotation.contents}} - {{annotation.displayName}}</p>
+                </div>
+            </div>
         </div>
         </div>
     </body>
@@ -45,7 +48,7 @@
         <div id="footer"></div>
           <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js" integrity="sha256-lrZTgsdM1iVdRigETFOU8u8/BmLX1ysQ8bzrULbuVFU=" crossorigin="anonymous"></script>
-          <script src="javascripts/app.js"></script>
+          <script src="javascripts/communityApp.js"></script>
         
     </footer>
 </html>

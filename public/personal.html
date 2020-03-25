@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book of Mormon Project</title>
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script>
+            /*global $*/
+            $(document).ready(function(){
+              $("#header").load("header.html"); 
+              $("#scripture_container").load("bookOfMormon.html");
+              $("#footer").load("footer.html"); 
+              console.log("HERE");
+            });
+        </script> 
+        <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+    </head>
+    <body>
+        <div id="title">
+            <br>
+            <h1>Favorite Book of Mormon Verses</h1>
+            <br>
+        </div>
+      <div id="header"></div>
+     <div class="w3-container" id="page">
+        <div id="app">
+            <div id="loginSection">
+                <div id="loginButton">
+                    <button @click="toggleSignIn()">{{buttonText}}</button>
+                </div>
+            <span id="loginInfo" v-if="signInStatus">
+                <p v-if="currentUser.displayName">Welcome {{currentUser.displayName}}</p>
+                <p v-else>Welcome {{currentUser.email}}</p>    
+            </span>
+            </div>
+            <br>
+            <div id="submit" class="w3-half w3-card">
+                <form v-on:submit.prevent autocomplete="off">
+                      <div class="w3-card">
+                          <div id="reference">
+                              <label for="book">Book:</label><br>
+                              <input id="files" list="books" v-on:keyup.prevent="searchVerse" v-model="book">
+                              <datalist id="books">
+                                <option v-for="book in books">{{book}}</option>
+                              </datalist>
+                          </div>
+                          <div id="reference">
+                              <label for="chapter">Chapter:</label><br>
+                              <input id="chapter" type="text" v-on:keyup.prevent="searchVerse" v-model="chapter" size="2">
+                          </div>
+                          <div id="reference">
+                              <label for="verse">Book:</label><br>
+                              <input id="verse" type="text" v-on:keyup.prevent="searchVerse" v-model="verse" size="2">
+                          </div>
+                          <br><br>
+                          <label for="explanation">Why this is meaningful to you:</label><br>
+                          <textarea id="explanation" name="paragraph_text" cols="50" rows="10" v-model="words"></textarea>
+                        <div class="controls">
+                          <input type="checkbox" v-model="publicAllowed"> Allow Public View</input>
+                          <button @click="save()">Save</button>
+                          <button @click="deleteAnnotation()">Delete</button>
+                        </div>
+                    </div>
+                    <div class="w3-card">
+                            <h3>Annotations</h3>
+                    <div class="w3-card">
+                        <ul id="annotations">
+                            <li v-for="scripture in scriptures" @click.prevent="updateReference(scripture.reference)">
+                                <a href="show annotation">{{scripture.reference}}</a>
+                            </li>
+                        </ul>
+                    </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+        <div class="w3-half w3-card">
+         <div id="scripture_container" class="w3-card"></div>
+         </div>
+                     </div>
+         <span id="space">
+             <br><br><br>
+         </span>           
+
+    </body>
+    <footer>
+        <div id="footer"></div>
+          <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js" integrity="sha256-lrZTgsdM1iVdRigETFOU8u8/BmLX1ysQ8bzrULbuVFU=" crossorigin="anonymous"></script>
+          <script src="javascripts/app.js"></script>
+        
+    </footer>
+</html>
