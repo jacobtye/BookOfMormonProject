@@ -1,58 +1,63 @@
 <html>
-    <head>
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-        <script>
-            /*global $*/
-            $(function(){
-            $("#header").load("header.html"); 
-            $("#footer").load("footer.html"); 
+
+<head>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        /*global $*/
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
             console.log("HERE");
-            });
-        </script> 
-    </head>
-    <body>
-        <div id="space" v-bind:style="{ 'background-image': 'url(' + POD.hdurl + ')'}">
-            <div id="header"></div>
-            <br><br>
+        });
+    </script>
+</head>
+
+<body>
+    <div id="space" v-bind:style="{ 'background-image': 'url(' + POD.hdurl + ')'}">
+        <div id="header"></div>
+        <br><br>
         <div class="w3-container" id="contact">
             <div class="w3-card">
                 <div class="w3-half">
-                <p>
-                    This site uses node, express, & vuejs to create a mock of google docs. All text is saved in arrays in node and are accessible to all clients.<br>
-                    Future additions to be added, users so only a user can see their docs and socket.io so that all clients on one account can see live changes.
-                </p>
-                <p>
-                    Email: <a href="mailto:jacob.h.tye@gmail.com">jacob.h.tye@gmail.com</a>
-                </p>
+                    <p>
+                        This site uses node, express, & vuejs to create a mock of google docs. All text is saved in
+                        arrays in node and are accessible to all clients.<br>
+                        Future additions to be added, users so only a user can see their docs and socket.io so that all
+                        clients on one account can see live changes.
+                    </p>
+                    <p>
+                        Email: <a href="mailto:jacob.h.tye@gmail.com">jacob.h.tye@gmail.com</a>
+                    </p>
                     Phone: 1-678-697-5999
-                </p>
-            </div>
-            <div class="w3-half">
-                <small>
-                    <h3>Send me an email:</h3>
+                    </p>
+                </div>
+                <div class="w3-half">
+                    <small>
+                        <h3>Send me an email:</h3>
 
-                    <form action="mailto:jacob.h.tye@gmail.com" method="post" enctype="text/plain">
-                        Name:<br>
-                        <input type="text" name="name"><br>
-                        E-mail:<br>
-                        <input type="text" name="mail"><br>
-                        Comment:<br>
-                        <input type="text" name="comment" size="auto"><br><br>
-                        <input type="submit" value="Send">
-                        <input type="reset" value="Reset">
-                    </form>
-                </small>
+                        <form action="mailto:jacob.h.tye@gmail.com" method="post" enctype="text/plain">
+                            Name:<br>
+                            <input type="text" name="name"><br>
+                            E-mail:<br>
+                            <input type="text" name="mail"><br>
+                            Comment:<br>
+                            <input type="text" name="comment" size="auto"><br><br>
+                            <input type="submit" value="Send">
+                            <input type="reset" value="Reset">
+                        </form>
+                    </small>
                 </div>
             </div>
-            </div>
-            <br><br>
-            <div id=footer></div>
-            
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
-        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-        <script src="https://unpkg.com/vue-star-rating/dist/star-rating.min.js"></script>
-        <script src="app.js"></script>
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    </body>
+        <br><br>
+        <div id=footer></div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/vue-star-rating/dist/star-rating.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</body>
+
 </html>

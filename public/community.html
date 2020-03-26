@@ -1,54 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Community</title>
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-        <script>
-            /*global $*/
-            $(document).ready(function(){
-              $("#header").load("header.html"); 
-              $("#scripture_container").load("bookOfMormon.html");
-              $("#footer").load("footer.html"); 
-              console.log("HERE");
-            });
-        </script> 
-        <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
-    </head>
-    <body>
-        <div id="title">
-            <br>
-            <h1>Favorite Book of Mormon Verses</h1>
-            <br>
-        </div>
-      <div id="header"></div>
-     <div class="w3-container" id="page">
+
+<head>
+    <title>Community</title>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        /*global $*/
+        $(document).ready(function () {
+            $("#header").load("header.html");
+            $("#scripture_container").load("bookOfMormon.html");
+            $("#footer").load("footer.html");
+            console.log("HERE");
+        });
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+</head>
+
+<body>
+    <div id="title">
+        <br>
+        <h1>Favorite Book of Mormon Verses</h1>
+        <br>
+    </div>
+    <div id="header"></div>
+    <div class="w3-container" id="page">
         <div id="app">
             <div id="loginSection">
                 <div id="loginButton">
                     <button @click="toggleSignIn()">{{buttonText}}</button>
                 </div>
-            <span id="loginInfo" v-if="signInStatus">
-                <p v-if="currentUser.displayName">Welcome {{currentUser.displayName}}</p>
-                <p v-else>Welcome {{currentUser.email}}</p>    
-            </span>
+                <span id="loginInfo" v-if="signInStatus">
+                    <p v-if="currentUser.displayName">Welcome {{currentUser.displayName}}</p>
+                    <p v-else>Welcome {{currentUser.email}}</p>
+                </span>
             </div>
             <div v-for="list in allAnnotations" class="w3-card">
-                <button type="button" class="btn btn-info" data-toggle="collapse" v-bind:data-target="list[0][0]">{{list[1][0].reference}}</button>
+                <button type="button" class="btn btn-info" data-toggle="collapse"
+                    v-bind:data-target="list[0][0]">{{list[1][0].reference}}</button>
                 <br>
                 {{list[1][0].verse}}
                 <div v-bind:id="list[0][1]" class="collapse">
-                  <br>
-                  <p v-for="annotation in list[1]">{{annotation.contents}} - {{annotation.displayName}}</p>
+                    <br>
+                    <p v-for="annotation in list[1]">{{annotation.contents}} - {{annotation.displayName}}</p>
                 </div>
             </div>
         </div>
-        </div>
-    </body>
-    <footer>
-        <div id="footer"></div>
-          <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js" integrity="sha256-lrZTgsdM1iVdRigETFOU8u8/BmLX1ysQ8bzrULbuVFU=" crossorigin="anonymous"></script>
-          <script src="javascripts/communityApp.js"></script>
-        
-    </footer>
+    </div>
+</body>
+<footer>
+    <div id="footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"
+        integrity="sha256-lrZTgsdM1iVdRigETFOU8u8/BmLX1ysQ8bzrULbuVFU=" crossorigin="anonymous"></script>
+    <script src="javascripts/communityApp.js"></script>
+
+</footer>
+
 </html>

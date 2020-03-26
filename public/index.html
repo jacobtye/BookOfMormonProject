@@ -1,50 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Home</title>
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-        <script>
-            /*global $*/
-            $(document).ready(function(){
-              $("#header").load("header.html"); 
-              $("#footer").load("footer.html"); 
-              console.log("HERE");
-            });
-        </script> 
-        <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
-    </head>
-    <body>
-        <div id="title">
-            <br>
-            <h1>Favorite Book of Mormon Verses</h1>
-            <br>
-        </div>
-      <div id="header"></div>
-     <div class="w3-container" id="page">
+
+<head>
+    <title>Home</title>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        /*global $*/
+        $(document).ready(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+            console.log("HERE");
+        });
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+</head>
+
+<body>
+    <div id="title">
+        <br>
+        <h1>Favorite Book of Mormon Verses</h1>
+        <br>
+    </div>
+    <div id="header"></div>
+    <div class="w3-container" id="page">
         <div id="app">
             <div id="loginSection">
                 <div id="loginButton">
                     <button @click="toggleSignIn()">{{buttonText}}</button>
                 </div>
-            <span id="loginInfo" v-if="signInStatus">
-                <p v-if="currentUser.displayName">Welcome {{currentUser.displayName}}</p>
-                <p v-else>Welcome {{currentUser.email}}</p>    
-            </span>
+                <span id="loginInfo" v-if="signInStatus">
+                    <p v-if="currentUser.displayName">Welcome {{currentUser.displayName}}</p>
+                    <p v-else>Welcome {{currentUser.email}}</p>
+                </span>
             </div>
             <h1>Welcome to the Book of Mormon Favorite Scripture Center</h1>
             <br>
-            <p>This is a site I have been workign on where we all can say what we like about specific 
-            verses in the Book of Mormon and share it with everyone. To use simply log in with your Google account, 
-            and go to the personal tab and start annotating verses. Click if you want it to be public visible, and then 
-            click the community page to see what everyone is saying.</p>
+            <p>This is a site I have been workign on where we all can say what we like about specific
+                verses in the Book of Mormon and share it with everyone. To use simply log in with your Google account,
+                and go to the personal tab and start annotating verses. Click if you want it to be public visible, and
+                then
+                click the community page to see what everyone is saying.</p>
         </div>
-        </div>
-    </body>
-    <footer>
-        <div id="footer"></div>
-          <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js" integrity="sha256-lrZTgsdM1iVdRigETFOU8u8/BmLX1ysQ8bzrULbuVFU=" crossorigin="anonymous"></script>
-          <script src="javascripts/app.js"></script>
-        
-    </footer>
+    </div>
+</body>
+<footer>
+    <div id="footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"
+        integrity="sha256-lrZTgsdM1iVdRigETFOU8u8/BmLX1ysQ8bzrULbuVFU=" crossorigin="anonymous"></script>
+    <script src="javascripts/app.js"></script>
+
+</footer>
+
 </html>

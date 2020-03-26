@@ -1,19 +1,21 @@
 <html>
-    <head>
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-        <script>
-            /*global $*/
-            $(function(){
-            $("#header").load("header.html"); 
-            $("#footer").load("footer.html"); 
+
+<head>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        /*global $*/
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
             console.log("HERE");
-            });
-        </script> 
-    </head>
-    <body>
-        <div id="space" v-bind:style="{ 'background-image': 'url(' + POD.hdurl + ')'}">
-            <div id="header"></div>
-            <br><br>
+        });
+    </script>
+</head>
+
+<body>
+    <div id="space" v-bind:style="{ 'background-image': 'url(' + POD.hdurl + ')'}">
+        <div id="header"></div>
+        <br><br>
         <div class="textbox" id="contact">
             <small>
                 <p>
@@ -26,7 +28,7 @@
                             <a href="https://w3schools.com">w3-school for containers</a>
                         </li>
                     </ul>
-                    
+
                     <h3><b>Backend</b></h3>
                     <ul>
                         <li>
@@ -45,14 +47,15 @@
                 </p>
             </small>
         </div>
-            <br><br>
-            <div id=footer></div>
-            
-        </div>
-        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
-        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-        <script src="https://unpkg.com/vue-star-rating/dist/star-rating.min.js"></script>
-        <script src="app.js"></script>
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    </body>
+        <br><br>
+        <div id=footer></div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/vue-star-rating/dist/star-rating.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</body>
+
 </html>
