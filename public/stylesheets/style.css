@@ -6,7 +6,11 @@
  height: 100vh !important; 
  overflow: scroll;
 }
-
+#explanation{
+    width: 100%;
+    height: 100%; 
+    box-sizing: border-box;
+}
 #title{
     text-align: center;
 }

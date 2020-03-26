@@ -19,6 +19,7 @@ firebase.initializeApp(config);
           el: '#app',
           data: {
             scriptures: [],
+            isMobile: false,
             words : "",
             books : ["1 Nephi", "2 Nephi", "Jacob", "Enos", 
                     "Jarom", "Omni", "Words of Mormon",
@@ -59,7 +60,9 @@ firebase.initializeApp(config);
             },
             async searchVerse(){
                 await this.generateReference();
-                await this.findVerse();
+                if(!this.isMobile){
+                    await this.findVerse();
+                }
             },
             async findVerse(){
                 try{
@@ -178,6 +181,7 @@ firebase.initializeApp(config);
                 // console.log(newReference);
                 this.reference = newReference;
                 await this.loadAnnotation();
+                await this.findVerse();
             },
             async deleteAnnotation(){
                 // console.log("in delete");
