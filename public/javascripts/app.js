@@ -34,6 +34,8 @@ firebase.initializeApp(config);
             signInStatus: false,
             buttonText : "LOADING...",
             currentUser: null,
+            isMobile: false,
+            isChrome: false,
         
           },
           created: async function() {
@@ -59,12 +61,18 @@ firebase.initializeApp(config);
                 }
             },
             async searchVerse(){
+                if (this.isMobile && this.isChrome){
+                    return;
+                }
                 await this.generateReference();
                 if(!this.isMobile){
                     await this.findVerse();
                 }
             },
             async findVerse(){
+                if (this.isMobile && this.isChrome){
+                    return;
+                }
                 try{
                     document.getElementById(this.reference).scrollIntoView();
                     window.scrollTo(0, 0);
@@ -306,6 +314,34 @@ firebase.initializeApp(config);
                     this.buttonText = 'Sign in with Google';
                     this.updateFiles();
                 }
+
+
+            var ua = window.navigator.userAgent;
+            var msie = ua.indexOf("MSIE ");
+        
+            if (msie > 0 || !!ua.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
+            {
+                alert("Vuejs does not support Internet Explorer, please use another browser.");
+            }
+            var isMobile = false; //initiate as false
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(ua)) {
+                isMobile = true;
+            }
+            var isChrome = (/Chrome/i.test(ua));
+            var isSamsung = /SamsungBrowser/i.test(ua);
+            var isFirefox = /firefox/i.test(ua);
+            var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && safari.pushNotification));
+            console.log("Safari " + isSafari);
+            console.log(isChrome + " Chrome");
+            console.log(("Samsung " + isSamsung));
+            console.log(("Firefox " + isFirefox));
+            $("#header").load("header.html");
+            if (isMobile && isChrome && !isSafari && !isSamsung && !isFirefox) {
+                this.isMobile = true;
+                this.isChrome = true;
+            }
+
+
             }
           }
         });

@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="stylesheets/style.css">
     <title>Home</title>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script>
@@ -9,6 +10,13 @@
         $(document).ready(function () {
             $("#header").load("header.html");
             $("#footer").load("footer.html");
+            var ua = window.navigator.userAgent;
+            var msie = ua.indexOf("MSIE ");
+        
+            if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
+            {
+                alert("Vuejs does not support Internet Explorer, please use another browser.");
+            }
             console.log("HERE");
         });
     </script>
@@ -36,9 +44,12 @@
                  Christ and his teaching to the people of the ancient Americas. This is site I created 
                  for people to share with each other their favorite verses and why. To use the site, log in with
                  your Google account and then use the 'Personal' page to add your annotations. See what the world
-                 is saying on the 'Community' page. Keep it clean and uplifting, I will remove anything that is not.</p>
+                 is saying on the 'Community' page. Keep it clean and uplifting, I will remove anything that is not.
+                 <br>
+                 Please note this page does not work in internet explorer or mobile chrome.</p>
+                 
             </div>
-                        <div class= "w3-half">
+                <div class= "w3-half">
                 
                 <p class="w3-card" style="text-align: center">
                     <img src="images/cristus.jpg" style="width: 75%; height: 75%"></img>
