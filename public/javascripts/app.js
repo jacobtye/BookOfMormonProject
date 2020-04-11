@@ -61,18 +61,18 @@ firebase.initializeApp(config);
                 }
             },
             async searchVerse(){
-                if (this.isMobile && this.isChrome){
-                    return;
-                }
+                // if (this.isMobile && this.isChrome){
+                //     return;
+                // }
                 await this.generateReference();
                 if(!this.isMobile){
                     await this.findVerse();
                 }
             },
             async findVerse(){
-                if (this.isMobile && this.isChrome){
-                    return;
-                }
+                // if (this.isMobile && this.isChrome){
+                //     return;
+                // }
                 try{
                     document.getElementById(this.reference).scrollIntoView();
                     window.scrollTo(0, 0);
