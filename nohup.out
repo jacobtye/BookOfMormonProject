@@ -1,0 +1,28 @@
+
+> favoriteScripture@0.0.0 start /home/ec2-user/environment/Book of Mormon
+> node ./bin/www
+
+Listening on port: 3003
+[0mGET /personal.html [36m304 [0m4.984 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.658 ms - -[0m
+[0mGET /header.html [36m304 [0m0.467 ms - -[0m
+[0mGET /bookOfMormon.html [36m304 [0m0.230 ms - -[0m
+[0mGET /footer.html [36m304 [0m0.301 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.333 ms - -[0m
+[0mGET /images/sacredGrove.jpg [36m304 [0m0.358 ms - -[0m
+GETTING ScripturejvhINKS3S9S6kqdVQ8iCRg84FJI2
+[0mGET /getScriptures/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m17.035 ms - -[0m
+GETTING DOCUMENTSjvhINKS3S9S6kqdVQ8iCRg84FJI2
+TEMP
+[0mGET /getTemp/jvhINKS3S9S6kqdVQ8iCRg84FJI2 [36m304 [0m7.633 ms - -[0m
+in post
+{}
+{ _id: 5e914adeba8ced4d40e7cc65,
+  userName: 'all',
+  displayName: 'all',
+  reference: 'README',
+  contents:
+   'This is a site I created where people can write about their favorite scriptures in the Book of Mormon to share with others. Simply type in a reference, type in your reasons why it is special, and choose your preferences and hit save. it will only be publically available if you give permission.',
+  verse: '',
+  publicAllowed: true }
+[0mGET /getREADME [32m200 [0m3.949 ms - 432[0m

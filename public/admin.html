@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Community</title>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        /*global $*/
+        $(document).ready(function () {
+            $("#header").load("header.html");
+            $("#scripture_container").load("bookOfMormon.html");
+            $("#footer").load("footer.html");
+            console.log("HERE");
+        });
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="w3-container" id="page">
+        <div id="app">
+            <div v-if="isAdmin()">
+                <div id="loginSection">
+                    <div id="loginButton">
+                        <button @click="toggleSignIn()">{{buttonText}}</button>
+                    </div>
+                    <span id="loginInfo" v-if="signInStatus">
+                        <p v-if="currentUser.displayName">Welcome {{currentUser.displayName}}</p>
+                        <p v-else>Welcome {{currentUser.email}}</p>
+                    </span>
+                    <br>
+                </div>
+                <br>
+                <div v-for="flagged in allFlags" class="w3-card">
+                            <br>
+                                {{flagged.verse}} - {{flagged.contents}} - {{flagged.displayName}}
+                                <button @click="removeFlag(flagged.reference)">Mark OK</button>
+                                <button @click="deleteAnnotation(flagged.reference)">Delete</button>
+                        </div>
+                    </div>
+                    <div v-else>
+                        <p>Only Admins can see this page</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div id="footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"
+        integrity="sha256-lrZTgsdM1iVdRigETFOU8u8/BmLX1ysQ8bzrULbuVFU=" crossorigin="anonymous"></script>
+    <script src="javascripts/adminApp.js"></script>
+
+</footer>
+
+</html>

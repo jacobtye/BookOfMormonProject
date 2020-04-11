@@ -16,20 +16,25 @@
     <div id="space" v-bind:style="{ 'background-image': 'url(' + POD.hdurl + ')'}">
         <div id="header"></div>
         <br><br>
-        <div class="w3-container" id="contact">
-            <div class="w3-card">
+        <div class="w3-container" id="containter">
+            <div class="w3-card" id="contact">
                 <div class="w3-half">
+                    <br>
                     <p>
-                        This site uses node, express, & vuejs to create a mock of google docs. All text is saved in
-                        arrays in node and are accessible to all clients.<br>
-                        Future additions to be added, users so only a user can see their docs and socket.io so that all
-                        clients on one account can see live changes.
+                        All authentication is done via firebase, no passwords are saved on the server.
+                        <br>
+                        Communication with the database is not secure so do not include sensitive information
+                        in any annotations. The purpose of the site is for uplifting the community and for helping 
+                        others to gain a stronger testimony of the Book of Mormon. 
+                        <br>
+                        I reserve the right to delete any annotations that are inappropriate, mean, or offensive and
+                        to block any user I feel violates public standards of decency.
+                        <br>
+                        Feel free to contact me with questions or suggestions for the site
+                        <br>
                     </p>
                     <p>
                         Email: <a href="mailto:jacob.h.tye@gmail.com">jacob.h.tye@gmail.com</a>
-                    </p>
-                    Phone: 1-678-697-5999
-                    </p>
                 </div>
                 <div class="w3-half">
                     <small>

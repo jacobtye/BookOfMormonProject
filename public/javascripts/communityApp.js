@@ -23,6 +23,7 @@ firebase.auth().onAuthStateChanged((firebaseUser) => {
         annotations: new Map(),
         allAnnotations: [],
         words: "",
+        lookup: "",
         books: ["1 Nephi", "2 Nephi", "Jacob", "Enos",
           "Jarom", "Omni", "Words of Mormon",
           "Mosiah", "Alma", "Helaman", "3 Nephi",
@@ -88,6 +89,49 @@ firebase.auth().onAuthStateChanged((firebaseUser) => {
             }
           }
         },
+        result(reference){
+            var lower = reference.toLowerCase();
+            var lookup = this.lookup.toLowerCase();
+            return lower.includes(lookup);
+        },
+        toReadable(reference){
+          var ret = [];
+          for (var i = 0; i < reference.length; i++){
+            if (reference.charAt(i) != "-"){
+              ret.push(reference.charAt(i));
+            }
+            else{
+              if (!isNaN(reference.charAt(i - 1)) && !isNaN(reference.charAt(i + 1))){
+                ret.push(":");
+              }
+              else{
+                ret.push(" ");
+              }
+            }
+          }
+          return ret.join("");
+        },
+        async flag(annotation){
+          console.log(annotation);
+          try {
+                // console.log(this.publicAllowed);
+            const response = await axios.post("/flag", {
+              userName: annotation.userName,
+              displayName: annotation.displayName,
+              reference: annotation._id,
+              contents: annotation.contents,
+              verse: annotation.verse,
+              publicAllowed: annotation.publicAllowed,
+            });
+            alert("Flagged " + annotation._id);
+            this.saved = true;
+            } catch (error) {
+              console.log(error);
+              alert("Error Flagging " + annotation._id);
+            }
+            
+        },
+        
         async searchVerse() {
           await this.generateReference();
           await this.findVerse();

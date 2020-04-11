@@ -17,14 +17,15 @@
 </head>
 
 <body>
-    <div id="title">
-        <br>
-        <h1>Favorite Book of Mormon Verses</h1>
-        <br>
-    </div>
     <div id="header"></div>
     <div class="w3-container" id="page">
         <div id="app">
+            <form id="search" class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" v-model="lookup" aria-label="Search">
+            </form>
+            <br>
+            <br>
+            <br>
             <div id="loginSection">
                 <div id="loginButton">
                     <button @click="toggleSignIn()">{{buttonText}}</button>
@@ -33,15 +34,22 @@
                     <p v-if="currentUser.displayName">Welcome {{currentUser.displayName}}</p>
                     <p v-else>Welcome {{currentUser.email}}</p>
                 </span>
-            </div>
-            <div v-for="list in allAnnotations" class="w3-card">
-                <button type="button" class="btn btn-info" data-toggle="collapse"
-                    v-bind:data-target="list[0][0]">{{list[1][0].reference}}</button>
                 <br>
-                {{list[1][0].verse}}
-                <div v-bind:id="list[0][1]" class="collapse">
+            </div>
+            <br>
+            <div v-for="list in allAnnotations" class="w3-card">
+                <div v-if="result(list[1][0].reference)" >
+                    <button type="button" class="btn btn-info" data-toggle="collapse"
+                        v-bind:data-target="list[0][0]">{{toReadable(list[1][0].reference)}}</button>
                     <br>
-                    <p v-for="annotation in list[1]">{{annotation.contents}} - {{annotation.displayName}}</p>
+                    {{list[1][0].verse}}
+                    <div v-bind:id="list[0][1]" class="collapse">
+                        <br>
+                        <p v-for="annotation in list[1]">
+                            {{annotation.contents}} - {{annotation.displayName}}
+                            <button @click="flag(annotation)">Flag</button>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

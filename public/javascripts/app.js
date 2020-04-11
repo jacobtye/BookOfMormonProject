@@ -183,30 +183,30 @@ firebase.initializeApp(config);
                 await this.loadAnnotation();
                 await this.findVerse();
             },
-            async deleteAnnotation(){
+            async deleteAnnotation(reference){
                 // console.log("in delete");
-                if(this.reference == "README"){
+                if(reference == "README"){
                     alert("Cannot Change or Delete README");
                     return;
                 }
-                if (this.reference == "" || this.reference == null){
+                if (reference == "" || reference == null){
                     return;
                 }
-                if(!confirm("Are you sure you want to delete annotation for " + this.reference)){
+                if(!confirm("Are you sure you want to delete annotation for " + reference)){
                     return;
                 }
                 let scripturesMap = this.scriptures.map(item => {
                     return item.reference;
                 });
-                let index = scripturesMap.indexOf(this.reference);
+                let index = scripturesMap.indexOf(reference);
                 // console.log(index);
                 if (index == -1){
-                    alert("No annotation for  " + this.reference);
+                    alert("No annotation for  " + reference);
                     return;
                 }
                 try {
                     await axios.delete("/deleteScripture/"+ this.scriptures[index]._id);
-                alert("Deleted " + this.reference);
+                alert("Deleted " + reference);
                 this.words = "";
                 this.reference = "";
                 this.updateFiles();
@@ -214,6 +214,18 @@ firebase.initializeApp(config);
                 console.log(error);
                 alert("Error Deleting " + this.file);
               }
+            },
+            async clear(){
+                this.book = "";
+                this.chapter = "";
+                this.version = "";
+                this.words = "";
+            },
+            isNotREADME(reference){
+              if (reference == "README"){
+                  return false;
+              }  
+              return true;
             },
             async deleteNoComfirm(){
                 // console.log("IN DELETE");

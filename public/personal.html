@@ -18,8 +18,7 @@
             if (!isMobile) {
                 $("#scripture_container").load("bookOfMormon.html");
             } else {
-                $("#page").load("mobile.html");
-                alert("currently not supported on mobile");
+                $("#scripture_container").load("bookOfMormon.html");
             }
             $("#footer").load("footer.html");
             console.log("HERE");
@@ -29,11 +28,6 @@
 </head>
 
 <body>
-    <div id="title">
-        <br>
-        <h1>Favorite Book of Mormon Verses</h1>
-        <br>
-    </div>
     <div id="header"></div>
     <div class="w3-container" id="page">
         <div id="app">
@@ -71,7 +65,7 @@
                         <div class="controls">
                             <input type="checkbox" v-model="publicAllowed"> Allow Public View</input>
                             <button @click="save()">Save</button>
-                            <button @click="deleteAnnotation()">Delete</button>
+                            <button @click="clear()">Clear</button>
                         </div>
                     </div>
                     <div class="w3-card">
@@ -81,6 +75,7 @@
                                 <li v-for="scripture in scriptures"
                                     @click.prevent="updateReference(scripture.reference)">
                                     <a href="show annotation">{{scripture.reference}}</a>
+                                    <button v-if="isNotREADME(scripture.reference)" @click="deleteAnnotation(scripture.reference)">Delete</button>
                                 </li>
                             </ul>
                         </div>
