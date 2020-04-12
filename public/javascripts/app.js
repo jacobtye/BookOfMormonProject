@@ -116,7 +116,13 @@ firebase.initializeApp(config);
                 }
                 // console.log("in save");
                 await this.generateReference();
+                try{
                 let verse = document.getElementById(this.reference).innerText;
+                }
+                catch(exception){
+                    alert("PLease use a valid reference\n You must have a Book, and if you have a Verse, you must have a chapter. \n You can only annotate one verse.");
+                    return;
+                }
                 let scripturesMap = this.scriptures.map(item => {
                     return item.reference;
                 });

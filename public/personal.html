@@ -30,7 +30,7 @@
             if( ua.indexOf("Android") >= 0 )
             {
               var androidversion = parseFloat(ua.slice(ua.indexOf("Android")+8)); 
-              if (androidversion == 9.0 && isChrome){
+              if (androidversion == 9.0 && isChrome && !isSafari && !isSamsung && !isFirefox){
                   alert("Andriod verion 9.0 Chrome not supported");
                   $("#page").load("mobile.html");
               }

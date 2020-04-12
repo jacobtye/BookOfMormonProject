@@ -58,7 +58,12 @@ firebase.auth().onAuthStateChanged((firebaseUser) => {
             await this.scriptures.forEach(function (annotation) {
               let key = annotation.reference;
               if (this.annotations.has(key)) {
-                this.annotations.set(key, this.annotations.get(key).push(annotation));
+                console.log(this.annotations.get(key) );
+                console.log(annotation);
+                let list = this.annotations.get(key);
+                list.push(annotation);
+                console.log()
+                this.annotations.set(key, list);
               } else {
                 this.annotations.set(key, [annotation]);
               }
@@ -69,6 +74,16 @@ firebase.auth().onAuthStateChanged((firebaseUser) => {
           }
           console.log(this.annotations);
           this.annotations.forEach(function (value, map) {
+               var good = true;
+              try{
+                value[0].reference;
+                
+              }
+              catch(exception) {
+                console.log("Bad Value " + value);
+                good = false;
+              }
+              if(good){
             this.allAnnotations.push([
               ["#r" + value[0].reference, "r" + value[0].reference],
               []
@@ -76,6 +91,7 @@ firebase.auth().onAuthStateChanged((firebaseUser) => {
             value.forEach(function (annotation) {
               this.allAnnotations[this.allAnnotations.length - 1][1].push(annotation);
             }, app);
+              }
           }, app);
           console.log(this.allAnnotations);
         },
